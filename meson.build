@@ -712,7 +712,7 @@ executable('julea-statistics', 'tools/statistics.c',
 executable('julea-access-replay', 'tools/access_replay.c',
 	dependencies: common_deps + [julea_dep],
 	include_directories: julea_incs,
-	install: ture,
+	install: true,
 )
 
 if hdf_dep.found()
